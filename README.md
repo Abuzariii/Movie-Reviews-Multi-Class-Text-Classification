@@ -13,4 +13,4 @@ As transformers package is not pre installed in Colab, you have to manually inst
 
 4 - positive
 
-Both Tokenizer and the model are loaded with pre trained weights. I did not validate the model during training but it did pretty well even after training for one epoch. After preprocessing the dataset is in `tf.dataset` format with over 9700 data units. Estimated time for for training on just 1000 units for epoch is over 13 minutes.
+Both Tokenizer and the model are loaded with pre trained weights. I did not validate the model during training but it did pretty well even after training for one epoch. After preprocessing the dataset is in `tf.dataset` format with over 9700 data units. Estimated time for for training on just 1000 units for every epoch is over 13 minutes.
